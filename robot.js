@@ -99,7 +99,7 @@ const mailRoute = ["Alice's House", "Cabin", "Alice's House", "Bob's House", "To
 
 /*To implement the route-following robot, we’ll need to make use of robot memory. The robot keeps the rest of its route in its memory and drops the first element every turn. */
 
-// ! How do i actually run this?  
+
 function routeRobot(state, memory) {
     if (memory.length == 0) {
         memory = mailRoute;
